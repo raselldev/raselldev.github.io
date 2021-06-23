@@ -55,6 +55,22 @@ main > .short-url{
 	margin: 1rem;
 }
 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+.column{
+	float: left;
+	width: 50%;
+}
+
+.detail{
+	font-size: 1rem;
+	margin-top: -2rem;
+}
+
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
